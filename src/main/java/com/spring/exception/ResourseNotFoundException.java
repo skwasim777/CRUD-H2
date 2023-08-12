@@ -2,6 +2,8 @@ package com.spring.exception;
 
 import org.springframework.web.bind.annotation.ResponseStatus;
 
+// for exception handling
+
 @ResponseStatus
 public class ResourseNotFoundException extends RuntimeException {
 	 	
